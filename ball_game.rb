@@ -2,7 +2,7 @@
 
 class Ball
     
-    #Eventually, I will have 'power-ups' that USER can pick up. Leaving this in will give me access to this attribute later
+    #Eventually, I will have 'power-ups' that the USER can pick up. Leaving this in will give me access to this attribute later
     attr_accessor :more_moves
     
     def initialize ( x_position, y_position, moves_remaining )
